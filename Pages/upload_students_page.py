@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
-from course_db_helper import get_all_the_courses
-from student_db_helper import insert_students_in_bulk
+from Pages.course_db_helper import get_all_the_courses
+from Pages.student_db_helper import insert_students_in_bulk
 
 st.title("Upload students")
 
